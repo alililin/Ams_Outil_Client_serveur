@@ -17,7 +17,7 @@ les éléments sont installés sur le  serveur :
     Python 3 : Langage de programmation utilisé pour le développement de l’interface web.
     Flask : Framework web Python.
     Jinja : Moteur de templates pour Flask.
-    BeautifulSoup4 : Pour le scraping de données HTML, si nécessaire.
+    BeautifulSoup4 : Pour le scraping de données HTML.
     Requests : Pour effectuer des requêtes HTTP.
     Pygal : Bibliothèque Python pour générer des graphiques interactifs.
     
