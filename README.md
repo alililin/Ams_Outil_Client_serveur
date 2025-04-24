@@ -1,5 +1,5 @@
 # Ams_Outil_Client_serveur
-# 📊 Projet de Monitoring Système – L2 S4
+# Projet de Monitoring Système – L2 S4
 
 Ce projet permet de surveiller l'utilisation des ressources système (RAM, CPU, DISK) et d'alerter automatiquement en cas de situation de crise. Il génère également des graphiques d'historique et les affiche via une interface web.
 
