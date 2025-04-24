@@ -4,32 +4,23 @@
 Ce projet permet de surveiller l'utilisation des ressources système (RAM, CPU, DISK) et d'alerter automatiquement en cas de situation de crise. Il génère également des graphiques d'historique et les affiche via une interface web.
 
 ## Interface Web :
-Cette interface web permet de consulter les données des sondes, y compris l'historique sous forme de graphiques visuels. Elle permet aussi de visualiser les alertes générées par le module de détection de crise.
+Cette interface web permet de consulter les données des sondes sous forme de graphiques visuels. Elle permet aussi de visualiser les alertes générées par le module de détection de crise.
 
-## Fonctionalités: 
-Fonctionnalités :
-
+## Fonctionalités: :
     Affichage des données sous forme de graphiques évolutifs.
-
-    Affichage de l’historique des sondes réalisées.
-
-    Détection et affichage d'éventuelles situations de crise via des alertes.
-
+    Affichage des alerts.
     Interface de consultation web claire et simple, incluant des graphiques et informations supplémentaires.
+    
 ### Dépendences: 
 les éléments sont installés sur le  serveur :
 
     Python 3 : Langage de programmation utilisé pour le développement de l’interface web.
-
     Flask : Framework web Python.
-
     Jinja : Moteur de templates pour Flask.
-
     BeautifulSoup4 : Pour le scraping de données HTML, si nécessaire.
-
     Requests : Pour effectuer des requêtes HTTP.
-
     Pygal : Bibliothèque Python pour générer des graphiques interactifs.
+    
 ### Lancement de interface web :
 on lance l'application web avec ses commandes suivantes:
   Accédez au dossier où se trouve le fichier app.py : /home/lina/monitoring
